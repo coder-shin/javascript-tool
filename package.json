@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "My personal JS library",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha \"test/**/*.test.js\""
   },
   "repository": {
     "type": "git",
